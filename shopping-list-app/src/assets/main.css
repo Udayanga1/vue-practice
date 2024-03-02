@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+#app {
+	font-family: "Roboto", sans-serif;
+	color: #333;
+	background-color: #f4f4f4;
+	height: 60vh;
+	/* display: flex; */
+	margin: 20vh 2rem;
+	/* flex-direction: column; */
+	align-items: start;
+	justify-content: center;
+	padding: 34px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
