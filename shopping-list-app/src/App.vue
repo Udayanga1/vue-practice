@@ -51,7 +51,9 @@ const doEdit = (e) => {
 			<span>High Priority</span>
 		</label>
 		<br />
+		<!--  button is disabled if newItem is empty -->
 		<button
+			:disabled="newItem.length === 0"
 			class="bg-blue-400 px-3 py-2 rounded-lg text-white font-bold text-lg mt-3"
 		>
 			Save Item
